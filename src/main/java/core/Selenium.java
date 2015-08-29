@@ -58,7 +58,7 @@ public class Selenium {
 
 			i++;
 			
-			System.out.println("");
+			/*System.out.println("");
 			if (title_expected.equals(title_actual)) {
 			System.out.println("Test Case ID: \t\t" + text_case_id);
 			System.out.println("URL: \t\t\t" + url);
@@ -72,7 +72,8 @@ public class Selenium {
 			System.out.println("Title Actual: \t\t" + title_actual);
 			System.out.println("Test Case Result: \t" + "FAILED");
 			} 
-		}
+		*/
+			}
 
 		driver.quit();
 		br.close();
@@ -80,12 +81,12 @@ public class Selenium {
 
 	}
 
-	public static void main(String[] args) throws IOException {
-		core.Selenium selenium = new core.Selenium();
-		selenium.a2d();
+	public static void main(String[] args) {
+		
 
 	}
 
 
 
 }
+
