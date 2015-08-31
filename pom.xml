@@ -5,7 +5,7 @@
 	<groupId>core</groupId>
 	<artifactId>Weight_Watchers</artifactId>
 	<!-- <version>1.1</version> -->
-	<version>${build.verson}</version>
+	<version>${build.version}</version>
 	<packaging>jar</packaging>
 
 	<name>Weight_Watchers</name>
@@ -37,7 +37,8 @@
 			<artifactId>httpcore</artifactId>
 			<version>4.4</version>
 		</dependency>
-	</dependencies>
+		</dependencies>
+	
 	<reporting>
 		<plugins>
 			<plugin>
