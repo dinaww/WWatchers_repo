@@ -45,7 +45,7 @@ import org.junit.runners.Parameterized.Parameters;
 	       
 	       @Test
 	       public void test_Title_Validation()  throws ComparisonFailure {
-	             System.out.println("Test Case: " + test_id + " Expected Result: " + expected_Result + " Actual Result: " + actual_Result);
+	             
 	             assertEquals("FAILED", expected_Result, actual_Result);
 	       }
 	 
